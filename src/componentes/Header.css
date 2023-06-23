@@ -1,0 +1,21 @@
+header {
+    padding: 1.4em;
+    background-color: #17ff0f;
+    margin-bottom: 1em;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(248, 6, 6);
+}
+.link {
+    color: rgb(245, 240, 242);
+    margin: 0 2em;
+    text-decoration: none;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
