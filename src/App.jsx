@@ -9,7 +9,7 @@ import { Home } from './componentes/Home';
 import { About } from './componentes/About';
 import { Dashboard } from './componentes/Dashboard';
 
-export const AppRouter = () => {
+export const App = () => {
   return (
       <BrowserRouter>
           <Header />
@@ -21,3 +21,5 @@ export const AppRouter = () => {
       </BrowserRouter>
   );
 };
+
+export default App
